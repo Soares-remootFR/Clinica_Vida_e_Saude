@@ -17,13 +17,21 @@ Este é um site institucional simples da **Clínica Saúde e Vida**, desenvolvid
 ## 🗂 Estrutura de Pastas
 
 ├── pagina_principal.html
+
 ├── sobre_clinica.html
+
 ├── horarios_atend.html
+
 ├── contato.html
+
 ├── css/
+
 │ └── style.css
+
 ├── img/
+
 │ └── (imagens utilizadas no site)
+
 
 📌 Objetivo
 Este projeto foi criado com fins de aprendizado e portfólio, focando em estruturação semântica, organização de páginas múltiplas e aplicação de estilos básicos em CSS.
