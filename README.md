@@ -1,4 +1,4 @@
-# Clínica Saúde e Vida - Site Institucional
+# Clínica Saúde e Vida - SIte
 
 Este é um site institucional simples da **Clínica Saúde e Vida**, desenvolvido com HTML e CSS puro. O projeto apresenta informações básicas da clínica, como quem somos, horários de atendimento e formas de contato.
 
