@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .container {
+            background-image: url('images/image_9.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 80px;
+        }
+
+        .icone {
+            background-image: url('images/icone_area_saude.png');
+            background-size: cover;
+            width: 80px;
+            margin-right: 530px;
+            top: -60px;
+            position: relative;
+        }
+
+        .texto {
+            position: absolute;
+            margin-right: 500px;
+            top: 100px;
+            font-size: 3em;
+            color: black;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            background-image: url('images/imagem-3.web');
+            text-align: justify;
+            padding-top: 0px;
+        }
+
+        .footer {
+
+            background-color: lightseagreen;
+            text-align: center;
+            padding: 0px;
+            position: relative;
+            width: 100%;
+            padding-top: -50px;
+
+        }
+
+        .menu {
+            background-color: lightseagreen;
+
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0D6EFD;
+
+        }
+
+        #contato {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 5px;
+            padding-top: -50px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul style="list-style-type: none; padding: 0;">
+                <li>
+                    <font size="5"><a href="index.html">Página Inicial</font></a>
+                </li><br><br>
+                <li>
+                    <font size="5"><a href="sobre_clinica.html">Sobre a Clínica</font></a>
+                </li><br><br>
+                <li>
+                    <font size="5"><a href="horarios_atend.html">Horário de atendimento</font></a>
+                </li><br><br>
+                <li>
+                    <font size="5"><a href="contato.html">Contato</font></a>
+                </li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <header>
+                    <div class="container">
+                        <img src="images/icone_area_saude.png" class="icone">
+
+                        <p class="texto">Clínica Vida & Saúde</p>
+                    </div>
+                </header>
+            </div>
+
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <section id="contato">
+                    <h2>Entre em Contato</h2>
+
+                    <p><strong>Telefone:</strong>(11) 2345-6789</p>
+                    <p><strong>Telefone:</strong>(11) 98765-4321</p>
+                    <p><strong>End: Rua dos Cuidados, 123 - Bairro Esperança, São Paulo - SP, 01234-567</strong>
+                    </p>
+
+                    <div style="display: flex; flex-wrap: wrap; gap: 20px; align-items: flex-start;">
+
+                        <!-- Google Maps -->
+                        <div style="flex: 2; min-width: 300px;">
+                            <iframe
+                                src="https://www.google.com/maps?q=Rua%20dos%20Cuidados%20123%20São%20Paulo&output=embed"
+                                width="100%" height="300" style="border:0;" allowfullscreen loading="lazy">
+                            </iframe>
+                        </div>
+
+                        <!-- Formulário compacto -->
+                        <form style="flex: 1; min-width: 200px; font-family: Arial, sans-serif;">
+                            <label for="nome">Nome:</label><br>
+                            <input type="text" id="nome" name="nome"
+                                style="width: 100%; padding: 4px; font-size: 12px;"><br><br>
+
+                            <label for="email">E-mail:</label><br>
+                            <input type="email" id="email" name="email"
+                                style="width: 100%; padding: 4px; font-size: 12px;"><br><br>
+
+                            <label for="assunto">Assunto:</label><br>
+                            <input type="text" id="assunto" name="assunto"
+                                style="width: 100%; padding: 4px; font-size: 12px;"><br><br>
+
+                            <label for="mensagem">Mensagem:</label><br>
+                            <textarea id="mensagem" name="mensagem" rows="3"
+                                style="width: 100%; padding: 4px; font-size: 12px;"></textarea><br><br>
+
+                            <button type="submit" style="padding: 4px 8px; font-size: 12px;">Enviar</button>
+                            <button type="reset" style="padding: 4px 8px; font-size: 12px;">Limpar</button>
+                        </form>
+
+                    </div>
+                </section>
+
+
+            </div>
+
+            <div class="footer"><br><br>
+
+                <!-- Aqui vai o seu rodapé -->
+                <footer>
+                    <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Clínica Vida & Saúde</strong></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Telefone: (11) 98765-4321 | SAC: 0800-123-4567</p>
+                    <p>&nbsp;&nbsp;&nbsp;&copy;2025 Clínica Vida & Saúde - Todos os direitos reservados.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

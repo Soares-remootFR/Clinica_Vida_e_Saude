@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+    <style>
+        .container {
+            background-image: url('images/imagem-6.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 80px;
+        }
+
+        .icone {
+            background-image: url('images/icone_area_saude.png');
+            background-size: cover;
+            width: 80px;
+            margin-right: 530px;
+            top: -60px;
+            position: relative;
+        }
+
+        .texto {
+            position: absolute;
+            margin-right: 500px;
+            top: 100px;
+            font-size: 3em;
+            color: black;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            background-image: url('images/imagem-3.web');
+            text-align: justify;
+        }
+
+        .footer {
+
+            background-color: lightseagreen;
+            text-align: center;
+            padding: 0px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .menu {
+            background-color: lightseagreen;
+
+        }
+
+        a {
+            color: #000000;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #0D6EFD;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul style="list-style-type: none; padding: 0;">
+                <li>
+                    <font size="5"><a href="index.html">Página Inicial</font></a>
+                </li><br><br>
+                <li>
+                    <font size="5"><a href="sobre_clinica.html">Sobre a Clínica</font></a>
+                </li><br><br>
+                <li>
+                    <font size="5"><a href="horarios_atend.html">Horário de atendimento</font></a>
+                </li><br><br>
+                <li>
+                    <font size="5"><a href="contato.html">Contato</font></a>
+                </li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <!-- Aqui vai o seu header -->
+                <header>
+                    <div class="container">
+                        <img src="images/icone_area_saude.png" class="icone">
+
+                        <p class="texto">Clínica Vida & Saúde</p>
+                    </div>
+                </header>
+            </div>
+
+            <div class="content">
+                <!-- Aqui vai o seu conteúdo -->
+                <p>
+                    <font size="4" face="Arial" color="#000000">
+                        A <strong>Clínica Vida e Saúde</strong> é um centro de referência em saúde e bem-estar, projetado para oferecer
+                        excelência no atendimento médico, com foco em diagnóstico preciso, prevenção e <i>tratamento
+                        humanizado</i>. Com uma equipe multidisciplinar altamente capacitada, nossa clínica disponibiliza um
+                        amplo portfólio de exames laboratoriais e de imagem, além de um moderno centro de vacinação.
+                        Nossa proposta é proporcionar um ambiente acolhedor, eficiente e seguro, garantindo acesso
+                        rápido e confiável aos serviços de saúde, tanto para pacientes particulares quanto para
+                        conveniados.
+
+                        Ao longo dos anos, investimos constantemente em tecnologia de ponta, adquirindo os mais modernos
+                        equipamentos para exames de ressonância magnética, tomografia computadorizada, ultrassonografia
+                        e análises clínicas automatizadas. Além disso, contamos com uma estrutura confortável e
+                        acessível, com salas climatizadas, atendimento digital integrado e protocolos rigorosos de
+                        higiene e segurança. Valorizamos o cuidado contínuo com cada paciente, promovendo campanhas
+                        preventivas, programas de saúde ocupacional e atendimento personalizado desde a recepção até o
+                        pós-consulta. A Clínica Vida e Saúde é o lugar onde inovação, empatia e compromisso com a vida
+                        caminham lado a lado.
+                    </font>
+                </p>
+
+            </div>
+
+            <div class="footer"><br><br>
+
+                <!-- Aqui vai o seu rodapé -->
+                <footer>
+                    <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;Clínica Vida & Saúde</strong></p>
+                    <p>&nbsp;&nbsp;&nbsp;&nbsp;Telefone: (11) 98765-4321 | SAC: 0800-123-4567</p>
+                    <p>&nbsp;&nbsp;&nbsp;&copy;2025 Clínica Vida & Saúde - Todos os direitos reservados.</p>
+                </footer>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
